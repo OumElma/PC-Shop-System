@@ -2,17 +2,17 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class Customer {
-    int customerID;
-    String fullName;
-    int pcId;
-    char gender;
-    String cusAddress;
-    Date dateBirth;
-    Date registrationDate;
-    String phoneNumber;
-    String email;
-    String password;
-    ArrayList<Component> selectedComponents;
+    private int customerID;
+    public String fullName;
+    private int pcId;
+    public char gender;
+    private String cusAddress;
+    private Date dateBirth;
+    public Date registrationDate;
+    private String phoneNumber;
+    private String email;
+    private String password;
+    private ArrayList<Component> selectedComponents;
 
     public Customer(int customerID, String fullName, int pcId, char gender, String cusAddress, 
                     Date dateBirth, String phoneNumber, String email, String password) {
